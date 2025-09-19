@@ -9,7 +9,7 @@ export default function Sidebar() {
   const router = useRouter();
 
   const navItems = [
-    { label: "Client App", icon: <LucideHome size={20} />, action: () => router.push("/client") },
+    { label: "Client App", icon: <LucideHome size={20} />, action: () => router.push("/details") },
     { label: "Settings", icon: <LucideSettings size={20} />, action: () => router.push("/admin/settings") },
   ];
 
