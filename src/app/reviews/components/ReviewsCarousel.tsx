@@ -81,7 +81,7 @@ export default function ReviewsCarousel({ reviews, interval = 4000 }: Props) {
                             {renderStars(review.rating)}
 
                             <p className="font-medium text-lg text-gray-800 mb-3 italic">
-                                "{review.reviewText}"
+                                &quot;{review.reviewText}&quot;
                             </p>
 
                             <h3 className="font-bold text-md text-gray-700 mb-2">

@@ -10,7 +10,10 @@ export async function POST(
     const res = await fetch(`${BASE_URL}/${params.id}/${params.action}`, { method: "POST" });
     const data = await res.json();
     return NextResponse.json(data);
-  } catch (err: any) {
-    return NextResponse.json({ error: err.message }, { status: 500 });
+  } catch (err: unknown) {
+    if (err instanceof Error) {
+      console.error(err.message);
+    }
   }
+
 }

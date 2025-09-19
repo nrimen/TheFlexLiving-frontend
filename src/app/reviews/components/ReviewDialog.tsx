@@ -38,7 +38,7 @@ export default function ReviewDialog({ review, open, onClose, onAction }: Props)
 
                     <Card className="p-4 bg-gray-50">
                         <p className="font-semibold mb-2">Review:</p>
-                        <p className="italic text-gray-700">"{review.reviewText}"</p>
+                        <p className="italic text-gray-700">&quot;{review.reviewText}&quot;</p>
                     </Card>
 
                     <Card className="p-4 bg-gray-50">

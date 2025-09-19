@@ -97,7 +97,7 @@ importers:
         specifier: ^10.4.21
         version: 10.4.21(postcss@8.5.6)
       eslint:
-        specifier: ^9
+        specifier: ^9.35.0
         version: 9.35.0(jiti@2.5.1)
       eslint-config-next:
         specifier: 15.5.3
